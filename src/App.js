@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Barra from './components/Barra';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Inicio from './components/pages/Inicio';
+import Flota from './components/pages/Flota';
+import Contacto from './components/pages/Contacto';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Router>
+      {/*AQUI SE LLAMA A LA BARRA PRINCIPAL DE LA PAGINA*/}
+    <Barra/>
+    <Switch>
+      {/*Se establece un significado a cada ruta de la pagina*/}
+      <Route path='/' exact component={Inicio}/>
+      <Route path='/flota' exact component={Flota}/>
+      <Route path='/contacto' exacto component={Contacto}/>
+    </Switch>
+    </Router>
+    
+      </>
   );
 }
 
