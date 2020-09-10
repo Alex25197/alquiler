@@ -34,7 +34,7 @@ function Barra() {
 <nav className="navbar">
     <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-            Alfredo's <i className="fab fa-typo3"></i>
+            Alfredo's Rent-A-Car<i className="fas fa-car"></i>
         </Link>
         {/*Se define el icono del menu aca y que hace cuando se hace click*/}
         <div className="menu-icon" onClick={handleClick}>
