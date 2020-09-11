@@ -52,7 +52,7 @@ function Barra() {
             </Link>
             </li>
             <li className='nav-item'>
-            <Link to='/contacto' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                 Contacto
             </Link>
             </li>
