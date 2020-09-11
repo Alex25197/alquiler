@@ -10,37 +10,66 @@ function Cards() {
       
         <div className='cartas__wrapper'>
         <ul className='cartas__autos'>
+          {/*Autos camioneta*/}
             <CartaAuto
               src='/img/bmw.jpg'
               text='BMW X5'
               label='Camioneta'
-              path='/flota'
+              path='/cotiza'
             />
             <CartaAuto
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+              src='/img/dmax.jpg'
+              text='Isuzu D-MAX'
+              label='Camioneta'
+              path='/cotiza'
+            />
+            <CartaAuto
+              src='/img/hilux.jpg'
+              text='Toyota Hilux'
+              label='Camioneta'
+              path='/cotiza'
             />
             </ul>
           <ul className='cartas__autos'>
+            {/*Autos sedan*/}
             <CartaAuto
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+              src='/img/picanto.jpg'
+              text='Hyundai H1'
+              label='Sedan'
+              path='/cotiza'
             />
             <CartaAuto
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
+              src='/img/sentra.jpg'
+              text='Nissan Sentra B13'
+              label='Sedan'
+              path='/cotiza'
             />
             <CartaAuto
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              src='/img/elantra.jpg'
+              text='Hyundai Elantra'
+              label='Sedan'
+              path='/cotiza'
+            />
+            </ul>
+            {/*Autos minivan*/}
+            <ul className='cartas__autos'>
+            <CartaAuto
+              src='/img/h1.jpg'
+              text='Hyundai H1'
+              label='Mini-van'
+              path='/cotiza'
+            />
+            <CartaAuto
+              src='/img/sportage.jpg'
+              text='Kia Sportage'
+              label='Mini-van'
+              path='/cotiza'
+            />
+            <CartaAuto
+              src='/img/qashqai.jpg'
+              text='Nissan Qashqai'
+              label='Mini-van'
+              path='/cotiza'
             />
             </ul>
         </div>

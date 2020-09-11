@@ -1,0 +1,102 @@
+
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.wrapperformulario{
+    background-color:skyblue;
+width: 750px;
+display: flex;
+flex-direction: column;
+padding: 20px 40px;
+border-radius: 10px;
+box-shadow: 0px 10px 50px #555;
+}
+
+form{
+    width: 130%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    text-align: center;
+    width: 100%;
+    color: #111;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2%;
+}
+
+input{
+    padding: 10px 10px;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+}
+
+input::placeholder{
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: #999;
+}
+
+/*.nombre {
+    margin-left: 1%;
+}
+
+.apellido {
+    margin-left: 1%;
+}
+
+.email {
+    margin-left: 1%;
+}
+
+.telefono {
+    margin-left: 1%;
+}*/
+
+.nombre,
+.apellido,
+.email,
+.telefono {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-left: 20%;
+}
+
+/*button{
+    width: 70%;
+    padding: 20px;
+    margin-left: 10%;
+    border-radius: 15px;
+}*/
+
+.cotizar {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: orange;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    }
+
+    .cotizar:hover {
+        background: #434343;
+        letter-spacing: 1px;
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+        transition: all 0.4s ease 0s;
+        }

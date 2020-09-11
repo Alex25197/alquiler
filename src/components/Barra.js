@@ -57,12 +57,12 @@ function Barra() {
             </Link>
             </li>
             <li>
-            <Link to='/registrarse' className='nav-links-mobile' onClick={closeMobileMenu}>
+            <Link to='/login' className='nav-links-mobile' onClick={closeMobileMenu}>
                 Registrarse
             </Link>
             </li>
         </ul>
-        {button && <Boton buttonStyle='btn--outline'>Registrarse</Boton>};
+        {button && <Link to='/login'><Boton buttonStyle='btn--outline'>Registrarse</Boton></Link>};
         
     </div>
 </nav>

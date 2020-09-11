@@ -1,11 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
+
+
 function CartaAuto(props) {
+
   return (
     <>
+
       <li className='cartas__auto'>
-        <Link className='cartas__auto__link' to={props.path}>
+        <Link 
+        to={props.path}
+        className='cartas__auto__link' >
           <figure className='cartas__auto__img-wrap' data-category={props.label}>
             <img
               className='cartas__auto__img'
@@ -18,8 +25,10 @@ function CartaAuto(props) {
           </div>
         </Link>
       </li>
+      
     </>
   );
 }
+
 
 export default CartaAuto;

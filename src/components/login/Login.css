@@ -1,0 +1,6 @@
+.container-login {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
